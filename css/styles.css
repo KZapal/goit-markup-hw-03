@@ -8,6 +8,8 @@ body {
 
 .interactive-button {
         color: inherit;
+        font-size: 14px;
+        line-height: 1,1;
 }
 
 .interactive-button:hover, .interactive-button-contacts:hover {
@@ -24,4 +26,23 @@ body {
 
 .interactive-button-contacts {
         color: inherit;
+}
+
+.first-header {
+        color: #ffffff;
+        background-color: #2F303A;
+        width: 1200px;
+        height: 400px;
+        text-align: center;
+        padding-block: 200px;
+        font-size: 44px;
+        line-height: 1,4;
+}
+
+.button-style {
+        font-weight: 700px;
+        color: #ffffff;
+        background-color: #2196F3;
+        width: 200px;
+        height: 50px;
 }
