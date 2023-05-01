@@ -4,45 +4,120 @@ body {
 }
 .interactive-buttons {
         color: #212121;
+        list-style: none;
 }
-
 .interactive-button {
         color: inherit;
         font-size: 14px;
-        line-height: 1,1;
+        line-height: 0,9;
+        text-decoration: none;
+        font-weight: 500;
 }
-
-.interactive-button:hover, .interactive-button-contacts:hover {
+.interactive-button:hover, .interactive-button-contacts:hover, .interactive-footer-button-contacts:hover, .footer-style-adress:hover {
         color: #2196F3;
 }
-
-.interactive-button:focus, .interactive-button-contacts:focus {
+.interactive-button:focus, .interactive-button-contacts:focus, .interactive-footer-button-contacts:focus, .footer-style-adress:focus {
         color: #2196F3;
 }
-
 .interactive-buttons-contacts {
-        color: #757575
+        color: #757575;
+        list-style: none;
 }
-
 .interactive-button-contacts {
         color: inherit;
+        text-decoration: none;
+        font-weight: 500;
 }
-
-.first-header {
-        color: #ffffff;
+.background-first-header {
         background-color: #2F303A;
-        width: 1200px;
-        height: 400px;
-        text-align: center;
-        padding-block: 200px;
-        font-size: 44px;
-        line-height: 1,4;
+        width: 1600px;
+        height: 600px;
 }
-
-.button-style {
-        font-weight: 700px;
+.first-header-style {
         color: #ffffff;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 0,7;
+}
+.first-header-button {
         background-color: #2196F3;
         width: 200px;
         height: 50px;
+        border-radius: 4px;
+}
+.first-header-button-text {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 0.5;
+}
+.section-decoration-list {
+        list-style: none;
+}
+.first-section-header-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 0.9;
+}
+.first-section-header-text {
+        color: #757575;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 0,6;
+}
+.second-header-style {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 0.9;
+}
+.third-header-style {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0.8;
+}
+.third-section-text {
+        color: #757575;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 0.8;
+}
+.footer-styles {
+        background-color: #2F303A;
+        width: 1600px;
+        height: 252px;
+}
+.footer-style-adress{
+        color: #ffffff;
+}
+.interactive-footer-buttons-contacts {
+        color: #757575;
+        list-style: none;
+}
+.interactive-footer-button-contacts {
+        color: inherit;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 0,6;
+}
+.blue-part-logo {
+        color: #2196F3;
+        font-family: "Raleway";
+        font-size: 26px;
+        line-height: 1,2;
+        font-weight: 700;
+}
+.white-part-logo {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 26px;
+        line-height: 1,2;
+        font-weight: 700;
+}
+.black-part-logo {
+        color: #000000;
+        font-family: "Raleway";
+        font-size: 26px;
+        line-height: 1,2;
+        font-weight: 700;
 }
