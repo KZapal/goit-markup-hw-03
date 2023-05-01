@@ -1,7 +1,7 @@
 body {
         font-family: "Roboto", sans-serif;
         color: #212121;
-        font-weight: 400px;
+        font-weight: 400;
         font-style: normal;
 }
 .interactive-buttons {
@@ -66,7 +66,6 @@ body {
 }
 .first-section-header-text {
         color: #757575;
-        font-weight: 400;
         font-size: 14px;
         line-height: 0,6;
 }
@@ -87,7 +86,6 @@ body {
 }
 .third-section-text {
         color: #757575;
-        font-weight: 400;
         font-size: 16px;
         line-height: 0.8;
 }
@@ -106,14 +104,12 @@ body {
 .interactive-footer-button-contacts {
         color: inherit;
         text-decoration: none;
-        font-weight: 400;
         font-size: 14px;
         line-height: 0,6;
 }
 .blue-part-logo {
         color: #2196F3;
         font-family: "Raleway";
-        font-style: bold;
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
@@ -121,7 +117,6 @@ body {
 .white-part-logo {
         color: #ffffff;
         font-family: "Raleway";
-        font-style: bold;
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
@@ -129,7 +124,6 @@ body {
 .black-part-logo {
         color: #000000;
         font-family: "Raleway";
-        font-style: bold;
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
@@ -175,7 +169,6 @@ body {
 }
 .first-section-portfolio-p {
         color: #757575;
-        font-weight: 400;
         font-size: 16px;
         line-height: 0.5;
 }
