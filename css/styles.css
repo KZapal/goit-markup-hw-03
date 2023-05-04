@@ -16,36 +16,36 @@ body {
         font-weight: 500;
         display: inline;
 }
-.other-color-button {
+.active-button {
         color: #2196F3;
 }
 .navigation-button:hover, 
-.interactive-button-contacts:hover, 
-.interactive-footer-button-contacts:hover, 
-.footer-style-adress:hover {
+.contacts-button:hover, 
+.contact-below:hover, 
+.gps:hover {
         color: #2196F3;
 }
 .navigation-button:focus, 
-.interactive-button-contacts:focus, 
-.interactive-footer-button-contacts:focus, 
-.footer-style-adress:focus {
+.contacts-button:focus, 
+.contact-below:focus, 
+.gps:focus {
         color: #2196F3;
 }
-.interactive-buttons-contacts {
+.contacts-buttons {
         color: #757575;
         list-style: none;
 }
-.interactive-button-contacts {
+.contacts-button {
         color: inherit;
         text-decoration: none;
         font-weight: 500;
 }
-.background-first-header {
+.background-business {
         background-color: #2F303A;
         width: 1600px;
         height: 600px;
 }
-.first-header-style {
+.your-business {
         color: #ffffff;
         font-weight: 900;
         font-size: 44px;
@@ -53,7 +53,7 @@ body {
         text-align: center;
         display: block;
 }
-.first-header-button {
+.order-service {
         background-color: #2196F3;
         display: block;
         width: 200px;
@@ -69,73 +69,73 @@ body {
         -moz-box-shadow: 0px 0px 0px 0px;
         box-shadow: 0px 0px 0px 0px;
 }
-.section-decoration-list {
+.list-item {
         list-style: none;
         display: inline-block;
 }
-.first-section-header-title {
+.lorem-title {
         font-weight: 700;
         font-size: 14px;
         line-height: 0.9;
 }
-.first-section-header-text {
+.lorem-text {
         color: #757575;
         font-size: 14px;
         line-height: 0,6;
 }
-.second-header-style {
+.our-team {
         font-weight: 700;
         font-size: 36px;
         line-height: 0.9;
 }
-.third-section-background {
+.team-section {
         background-color: #F5F4FA;
         width: 1600px;
         height: 648px;
 }
-.third-header-style {
+.member-name {
         font-weight: 500;
         font-size: 16px;
         line-height: 0.8;
 }
-.third-section-text {
+.job-position {
         color: #757575;
         font-size: 16px;
         line-height: 0.8;
 }
-.footer-styles {
+.description-below {
         background-color: #2F303A;
         width: 1600px;
         height: 252px;
 }
-.footer-style-adress{
+.gps{
         color: #ffffff;
 }
-.interactive-footer-buttons-contacts {
+.contacts-below {
         color: #757575;
         list-style: none;
 }
-.interactive-footer-button-contacts {
+.contact-below {
         color: inherit;
         text-decoration: none;
         font-size: 14px;
         line-height: 0,6;
 }
-.blue-part-logo {
+.blue-part {
         color: #2196F3;
         font-family: "Raleway";
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
 }
-.white-part-logo {
+.white-part {
         color: #ffffff;
         font-family: "Raleway";
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
 }
-.black-part-logo {
+.black-part {
         color: #000000;
         font-family: "Raleway";
         font-size: 26px;
