@@ -4,24 +4,31 @@ body {
         font-weight: 400;
         font-style: normal;
 }
-.interactive-buttons {
+.navigation {
         color: #212121;
         list-style: none;
 }
-.interactive-button {
+.navigation-button {
         color: inherit;
         font-size: 14px;
         line-height: 0,9;
         text-decoration: none;
         font-weight: 500;
+        display: inline;
 }
 .other-color-button {
         color: #2196F3;
 }
-.interactive-button:hover, .interactive-button-contacts:hover, .interactive-footer-button-contacts:hover, .footer-style-adress:hover {
+.navigation-button:hover, 
+.interactive-button-contacts:hover, 
+.interactive-footer-button-contacts:hover, 
+.footer-style-adress:hover {
         color: #2196F3;
 }
-.interactive-button:focus, .interactive-button-contacts:focus, .interactive-footer-button-contacts:focus, .footer-style-adress:focus {
+.navigation-button:focus, 
+.interactive-button-contacts:focus, 
+.interactive-footer-button-contacts:focus, 
+.footer-style-adress:focus {
         color: #2196F3;
 }
 .interactive-buttons-contacts {
@@ -44,6 +51,7 @@ body {
         font-size: 44px;
         line-height: 0,7;
         text-align: center;
+        display: block;
 }
 .first-header-button {
         background-color: #2196F3;
@@ -63,6 +71,7 @@ body {
 }
 .section-decoration-list {
         list-style: none;
+        display: inline-block;
 }
 .first-section-header-title {
         font-weight: 700;
@@ -133,16 +142,16 @@ body {
         line-height: 1,2;
         font-weight: 700;
 }
-.porfolio-header-borders {
+.header-borders {
         border: 1px;
-        border-color: #ECECEC;
+        border: #ECECEC;
         width: 1600px;
         height: 80px;
 }
-.portfolio-buttons-list-style {
+.project-categories {
         list-style: none;
 }
-.portfolio-button-style {
+.category-button {
         color: inherit;
         background-color: #F5F4FA;
         font-weight: 500;
@@ -151,9 +160,10 @@ body {
         border: #F5F4FA;
         border-radius: 4px 4px 4px 4px;
         cursor: pointer;
+        
 }
-.portfolio-button-style:hover,
-.portfolio-button-style:focus {
+.category-button:hover,
+.category-button:focus {
         background-color: #2196F3;
         color: #ffffff;
         font-weight: 500;
@@ -161,14 +171,21 @@ body {
         line-height: 0,6;
         border-radius: 4px 4px 4px 4px;
         cursor: pointer;
+        
 }
-.first-section-portfolio-dl {
+.project-name {
         font-weight: 700;
         font-size: 18px;
         line-height: 0.5;
+        
 }
-.first-section-portfolio-p {
+.project-type {
         color: #757575;
         font-size: 16px;
         line-height: 0.5;
+}
+
+.our-projects {
+        list-style: none;
+        display: inline-block;
 }
