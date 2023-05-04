@@ -42,8 +42,7 @@ body {
 }
 .background-business {
         background-color: #2F303A;
-        width: 1600px;
-        height: 600px;
+
 }
 .your-business {
         color: #ffffff;
@@ -90,8 +89,6 @@ body {
 }
 .team-section {
         background-color: #F5F4FA;
-        width: 1600px;
-        height: 648px;
 }
 .member-name {
         font-weight: 500;
@@ -105,8 +102,6 @@ body {
 }
 .description-below {
         background-color: #2F303A;
-        width: 1600px;
-        height: 252px;
 }
 .gps{
         color: #ffffff;
@@ -145,8 +140,6 @@ body {
 .header-borders {
         border: 1px;
         border: #ECECEC;
-        width: 1600px;
-        height: 80px;
 }
 .project-categories {
         list-style: none;
