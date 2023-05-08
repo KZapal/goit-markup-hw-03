@@ -3,10 +3,21 @@ body {
         color: #212121;
         font-weight: 400;
         font-style: normal;
+        max-width: 1600px;
+}
+.test {
+        display: inline-flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        width: 1600px;
+        height: 80px;
 }
 .navigation {
         color: #212121;
         list-style: none;
+        display: inline-flex;
+        margin-top: 32px;
+        
 }
 .navigation-button {
         color: inherit;
@@ -14,7 +25,8 @@ body {
         line-height: 0,9;
         text-decoration: none;
         font-weight: 500;
-        display: inline;
+        margin-left: 46px;
+        
 }
 .active-button {
         color: #2196F3;
@@ -34,6 +46,9 @@ body {
 .contacts-buttons {
         color: #757575;
         list-style: none;
+        display: inline-flex;
+        margin-left: 371px;
+        margin-top: 32px;
 }
 .contacts-button {
         color: inherit;
@@ -42,6 +57,10 @@ body {
 }
 .background-business {
         background-color: #2F303A;
+        width: 1600px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
 
 }
 .your-business {
@@ -50,11 +69,14 @@ body {
         font-size: 44px;
         line-height: 0,7;
         text-align: center;
-        display: block;
+        width: 696px;
+        height: 120px;
+        margin-top: 200px;
+        margin-left: 452px;
+        margin-right: 452px;
 }
 .order-service {
         background-color: #2196F3;
-        display: block;
         width: 200px;
         height: 50px;
         border: #2196F3;
@@ -67,6 +89,13 @@ body {
         -webkit-box-shadow: 0px 0px 0px 0px;
         -moz-box-shadow: 0px 0px 0px 0px;
         box-shadow: 0px 0px 0px 0px;
+        
+}
+.position-bb {
+        padding-top: 30px;
+        padding-left: 700px;
+        padding-right: 700px;
+        padding-bottom: 200px;
 }
 .list-item {
         list-style: none;
@@ -122,6 +151,7 @@ body {
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
+        margin-left: 215px;
 }
 .white-part {
         color: #ffffff;
@@ -129,6 +159,8 @@ body {
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
+        margin-top: 24px;
+        margin-bottom: 25px;
 }
 .black-part {
         color: #000000;
@@ -136,6 +168,9 @@ body {
         font-size: 26px;
         line-height: 1,2;
         font-weight: 700;
+        margin-right: 93px;
+        margin-top: 24px;
+        margin-bottom: 25px;
 }
 .header-borders {
         border: 1px;
