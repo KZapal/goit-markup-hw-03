@@ -14,7 +14,7 @@ ul {
 }
 .test {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 .nav-item:first-child {
@@ -24,9 +24,6 @@ ul {
 }
 .nav-item:nth-child(n + 2) {
   margin-right: 46px;
-}
-.nav-item:last-child {
-  margin-right: 364px;
 }
 .cnav-item:first-child {
   margin-right: 50px;
@@ -42,9 +39,8 @@ ul {
   color: #212121;
   list-style: none;
   display: flex;
-  align-items: baseline;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  margin: 0 auto;
 }
 .navigation-button {
   color: inherit;
@@ -72,9 +68,7 @@ ul {
   color: #757575;
   list-style: none;
   display: flex;
-  align-items: baseline;
-  margin: 0;
-  padding: 0;
+  align-items: center;
 }
 .contacts-button {
   color: inherit;
@@ -89,6 +83,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  column-gap: 30px;
 }
 .your-business {
   color: #ffffff;
@@ -117,7 +112,7 @@ ul {
   gap: 30px;
   padding: 0px;
   list-style: none;
-  margin-left: auto;
+  align-content: space-between;
 }
 .lorem-list-item {
   flex-basis: calc((100% - 90px) / 4);
@@ -143,8 +138,9 @@ ul {
 }
 .we-do-list {
   display: flex;
+  justify-content: space-between;
   list-style: none;
-  margin-left: auto;
+  margin-left: 0 auto;
 }
 .we-do-item:nth-child(-n + 2) {
   margin-right: 30px;
@@ -162,6 +158,7 @@ ul {
 .team-list-items {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 30px;
   padding: 0px;
   list-style: none;
@@ -202,6 +199,7 @@ ul {
 .logo-below {
   padding-top: 60px;
   margin-bottom: 20px;
+  margin-top: 0px;
 }
 .contact-item-below:nth-child(-n + 2) {
   margin-bottom: 9px;
@@ -233,7 +231,7 @@ ul {
 .project-categories {
   display: flex;
   list-style: none;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .category-item:nth-child(-n + 4) {
@@ -280,7 +278,7 @@ ul {
   flex-wrap: wrap;
   list-style: none;
   gap: 30px;
-  align-content: space-between;
+  justify-content: space-between;
 }
 .project-item {
   border: 1px solid #eeeeee;
