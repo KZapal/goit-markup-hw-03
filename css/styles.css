@@ -10,24 +10,23 @@ ul {
 }
 .container {
   max-width: 1200px;
-  margin: auto;
-  align-content: center;
+  margin: 0 auto;
 }
 .test {
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
+  align-content: space-between;
+  align-items: center;
 }
 .nav-item:first-child {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 .nav-item:nth-child(n + 2) {
   margin-right: 46px;
 }
 .nav-item:last-child {
-  margin-right: 371px;
+  margin-right: 364px;
 }
 .cnav-item:first-child {
   margin-right: 50px;
@@ -85,6 +84,12 @@ ul {
 .background-business {
   background-color: #2f303a;
 }
+.business-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .your-business {
   color: #ffffff;
   max-width: 600px;
@@ -93,18 +98,17 @@ ul {
   line-height: 0, 7;
   text-align: center;
 }
-.business-position {
-}
 .order-service {
-  background-color: #2196f3;
-  width: 200px;
-  height: 50px;
+  background: #2196f3;
   border: 0px solid #2196f3;
   border-radius: 4px 4px 4px 4px;
+  padding: 10px 41px 10px 42px;
+  width: 200px;
+  height: 50px;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 0, 5;
   cursor: pointer;
 }
 .lorem-position {
@@ -238,6 +242,7 @@ ul {
 .category-button {
   color: inherit;
   background-color: #f5f4fa;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 0, 6;
@@ -259,15 +264,24 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 0.5;
+  margin-top: 20px;
+  padding-left: 24px;
+  margin-bottom: 4px;
 }
 .project-type {
   color: #757575;
   font-size: 16px;
   line-height: 0.5;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .our-projects {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 30px;
+  align-content: space-between;
+}
+.project-item {
+  border: 1px solid #eeeeee;
 }
