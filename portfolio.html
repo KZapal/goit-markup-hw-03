@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,141 +19,155 @@
   </head>
   <body>
     <header class="header-borders">
-      <nav>
-        <menu class="navigation">
-          <li>
-            <a class="navigation-button" href="index.html"
-              ><span class="blue-part">Web</span
-              ><span class="black-part">Studio</span></a
-            >
-          </li>
-          <li><a class="navigation-button" href="/">Agencja</a></li>
-          <li>
-            <a class="navigation-button" href="portfolio.html"
-              ><span class="active-button">Portfolio</span></a
-            >
-          </li>
-          <li><a class="navigation-button" href="/">Kontakt</a></li>
-        </menu>
-      </nav>
-      <ul class="contacts-buttons">
-        <li>
-          <a class="contacts-button" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contacts-button" href="tel:48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="test">
+          <nav>
+            <menu class="navigation">
+              <li class="nav-item">
+                <a class="navigation-button" href="index.html"
+                  ><span class="blue-part">Web</span
+                  ><span class="black-part">Studio</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="navigation-button" href="/">Agencja</a>
+              </li>
+              <li class="nav-item">
+                <a class="navigation-button" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="navigation-button" href="/">Kontakt</a>
+              </li>
+            </menu>
+          </nav>
+          <ul class="contacts-buttons">
+            <li class="cnav-item">
+              <a class="contacts-button" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="cnav-item">
+              <a class="contacts-button" href="tel:48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
-      <ul class="project-categories">
-        <li>
-          <button class="category-button" type="button">Wszystkie</button>
-        </li>
-        <li><button class="category-button" type="button">Strony</button></li>
-        <li>
-          <button class="category-button" type="button">Apliakcje</button>
-        </li>
-        <li><button class="category-button" type="button">Dizajn</button></li>
-        <li>
-          <button class="category-button" type="button">Marketing</button>
-        </li>
-      </ul>
-      <section>
-        <ul class="our-projects">
-          <li>
-            <img
-              src="images/portfolio/technocrack.jpg"
-              alt="strona internetowa technocrack"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Technocrack</h3>
-            <p class="project-type">Strona internetowa</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/neworlean_vs_goldenstar.jpg"
-              alt="dwóch koszykarzy walczących o piłke"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Grafika New Orlean vs Golden Star</h3>
-            <p class="project-type">Dizajn</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/restaurant_seafood.jpg"
-              alt="logo restauracji seafood"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Restauracja Seafood</h3>
-            <p class="project-type">Aplikacja</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/project_prime.jpg"
-              alt="słuchawki nauszne"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Projekt Prime</h3>
-            <p class="project-type">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/project_boxes.jpg"
-              alt="aplikacja boxes"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Projekt Boxes</h3>
-            <p class="project-type">Aplikacja</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/inspiration_has_no_borders.jpg"
-              alt="strona internetowa inspiration has no borders"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Inspiration has no Borders</h3>
-            <p class="project-type">Strona internetowa</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/magazine_limited_edition.jpg"
-              alt="magazyn limited edition"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Magazyn Limited Edition</h3>
-            <p class="project-type">Dizajn</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/project_lab.jpg"
-              alt="projekt lab"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Projekt LAB</h3>
-            <p class="project-type">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/portfolio/growing_business.jpg"
-              alt="aplikacja growing business"
-              width="370"
-              height="294"
-            />
-            <h3 class="project-name">Growing Business</h3>
-            <p class="project-type">Aplikacja</p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <ul class="project-categories">
+            <li class="category-item">
+              <button class="category-button" type="button">Wszystkie</button>
+            </li>
+            <li class="category-item">
+              <button class="category-button" type="button">Strony</button>
+            </li>
+            <li class="category-item">
+              <button class="category-button" type="button">Apliakcje</button>
+            </li>
+            <li class="category-item">
+              <button class="category-button" type="button">Dizajn</button>
+            </li>
+            <li class="category-item">
+              <button class="category-button" type="button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="our-projects">
+            <li class="project-item">
+              <img
+                src="images/portfolio/technocrack.jpg"
+                alt="strona internetowa technocrack"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Technocrack</h3>
+              <p class="project-type">Strona internetowa</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/neworlean_vs_goldenstar.jpg"
+                alt="dwóch koszykarzy walczących o piłke"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Grafika New Orlean vs Golden Star</h3>
+              <p class="project-type">Dizajn</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/restaurant_seafood.jpg"
+                alt="logo restauracji seafood"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Restauracja Seafood</h3>
+              <p class="project-type">Aplikacja</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/project_prime.jpg"
+                alt="słuchawki nauszne"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Projekt Prime</h3>
+              <p class="project-type">Marketing</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/project_boxes.jpg"
+                alt="aplikacja boxes"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Projekt Boxes</h3>
+              <p class="project-type">Aplikacja</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/inspiration_has_no_borders.jpg"
+                alt="strona internetowa inspiration has no borders"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Inspiration has no Borders</h3>
+              <p class="project-type">Strona internetowa</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/magazine_limited_edition.jpg"
+                alt="magazyn limited edition"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Magazyn Limited Edition</h3>
+              <p class="project-type">Dizajn</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/project_lab.jpg"
+                alt="projekt lab"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Projekt LAB</h3>
+              <p class="project-type">Marketing</p>
+            </li>
+            <li class="project-item">
+              <img
+                src="images/portfolio/growing_business.jpg"
+                alt="aplikacja growing business"
+                width="370"
+                height="294"
+              />
+              <h3 class="project-name">Growing Business</h3>
+              <p class="project-type">Aplikacja</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="description-below">
