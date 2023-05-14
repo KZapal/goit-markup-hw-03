@@ -14,8 +14,8 @@ ul {
 }
 .test {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 .nav-item:first-child {
   padding-top: 24px;
@@ -40,7 +40,8 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 .navigation-button {
   color: inherit;
@@ -81,9 +82,7 @@ ul {
 .business-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  column-gap: 30px;
 }
 .your-business {
   color: #ffffff;
@@ -92,6 +91,7 @@ ul {
   font-size: 44px;
   line-height: 0, 7;
   text-align: center;
+  margin-bottom: 30px;
 }
 .order-service {
   background: #2196f3;
@@ -262,16 +262,11 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 0.5;
-  margin-top: 20px;
-  padding-left: 24px;
-  margin-bottom: 4px;
 }
 .project-type {
   color: #757575;
   font-size: 16px;
   line-height: 0.5;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
 .our-projects {
   display: flex;
@@ -282,4 +277,7 @@ ul {
 }
 .project-item {
   border: 1px solid #eeeeee;
+  border-top: 0px;
+  padding: 20px 24px;
+  margin-top: -4px;
 }
